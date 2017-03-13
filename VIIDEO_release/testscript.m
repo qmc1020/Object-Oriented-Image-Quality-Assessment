@@ -18,7 +18,7 @@ blockcoloverlap  = 8;
 
 % Compute the score for a distorted video
 
-vidname          = 'foreman_dst_qcif.yuv';
+vidname          = '/Users/yhou5/Documents/CMPUT 414/project/VIIDEO_release/foreman_dst_qcif.yuv';
 filep            = dir(vidname); 
 fileBytes        = filep.bytes; %Filesize
 fwidth           = 0.5;
@@ -37,7 +37,7 @@ disp(sprintf('Video quality for distorted video: %f', VIIDEOscoreDist));
 % Compute the score for a pristine video
 
                  
-vidname          = 'foreman_org_qcif.yuv';
+vidname          = '/Users/yhou5/Documents/CMPUT 414/project/VIIDEO_release/foreman_org_qcif.yuv';
 filep            = dir(vidname); 
 fileBytes        = filep.bytes; %Filesize
 fwidth           = 0.5;
